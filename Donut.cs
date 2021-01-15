@@ -4,9 +4,9 @@ using System.Text;
 using System.Runtime.InteropServices;
 
 using CommandLine;
-using Donut.Structs;
+using DonutCS.Structs;
 
-namespace Donut
+namespace DonutCS
 {
     public class Donut
     {

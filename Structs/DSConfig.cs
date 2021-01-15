@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Donut.Structs
+namespace DonutCS.Structs
 {
     public unsafe struct DSConfig
     {

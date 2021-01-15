@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Donut.Structs
+namespace DonutCS.Structs
 {
     public struct DSCrypt
     {

@@ -1,4 +1,4 @@
-﻿namespace Donut.Payloads
+﻿namespace DonutCS.Payloads
 {
     public class payload_exe_x64
     {

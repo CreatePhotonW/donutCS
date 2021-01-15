@@ -3,9 +3,9 @@ using System.IO;
 using System.IO.MemoryMappedFiles;
 using System.Runtime.InteropServices;
 
-using Donut.Structs;
+using DonutCS.Structs;
 
-namespace Donut
+namespace DonutCS
 {
     public class Generator
     {

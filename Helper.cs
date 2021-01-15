@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Runtime.InteropServices;
 
-using Donut.Structs;
+using DonutCS.Structs;
 
-namespace Donut
+namespace DonutCS
 {
     public class Helper
     {
@@ -275,7 +275,7 @@ namespace Donut
                 }
 
                 // Check existence of DLL function specified
-                if (config.mod_type == Constants.DONUT_MODULE_DLL && config.method != null)
+                if (config.mod_type == Constants.DONUT_MODULE_DLL && config.method != null && String(config.method) != "")
                 {
                     try
                     {
@@ -300,7 +300,7 @@ namespace Donut
                 }
 
                 // If unmanaged DLL with params, need function
-                if (config.mod_type == Constants.DONUT_MODULE_DLL && config.param != null)
+                if (config.mod_type == Constants.DONUT_MODULE_DLL && config.param != null && String(config.param) != "")
                 {
                     if (config.method == null)
                     {

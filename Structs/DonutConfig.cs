@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 // This is struct for converting to a DSConfig
-namespace Donut.Structs
+namespace DonutCS.Structs
 {
     public struct DonutConfig
     {

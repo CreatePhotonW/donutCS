@@ -2,9 +2,9 @@
 using System.IO;
 using System.Runtime.InteropServices;
 
-using Donut.Structs;
+using DonutCS.Structs;
 
-namespace Donut
+namespace DonutCS
 {
     public class D
     {
